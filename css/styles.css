@@ -101,6 +101,92 @@ hr{
     display: none;
 }
 
+/*Movil--*/
+@media only screen and (min-width: 320px) and (max-width: 576px){
+    h2{
+        font-size: 1.7rem!important;
+    }
+    p{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .logo{
+        width: 40px;
+    }
+
+    .grid-seccionuno{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .grid-secciondos{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        padding-bottom: 0px;
+    }
+
+    .grid-secciontres{
+        grid-template-columns: 1fr;
+
+    }
+
+    .grid-seccioncuatro{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .grid-seccionseis{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .at,
+    .elysian,
+    .rsl,
+    .lu,
+    .cuervos,
+    .m_cuervos,
+    .v_cuervos,
+    .f_cuervos,
+    .firma,
+    .tarjeta1,
+    .tarjeta2,
+    .edi,
+    .f_ads,
+    .e_ads{
+        width: 290px;
+        margin: 0 10px 0 10px;
+    }
+
+    .lu,
+    .cuervos,
+    .edi{
+        height: 340px!important;
+    }
+
+    .m_cuervos,
+    .v_cuervos,
+    .f_cuervos{
+        height: 350px!important;
+    }
+
+    .f_ads{
+        height: 251px!important;
+    }
+
+    .video{
+        width: 290px;
+    }
+    footer{
+        padding: 20px 0 20px 0;
+    }
+
+    footer h5 {
+        font-size: 0.4rem;
+    }
+}
+
 /*Movil-*/
 @media screen and (min-width: 368px) and (max-width: 455px) {
     p{
