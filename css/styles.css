@@ -1,0 +1,382 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+    background-color: #F5F4F4!important;
+    font-family: Arial,Helvetica,sans-serif!important;
+}
+
+hr{
+    width: 80%;
+    border: 2px solid #0C67BE!important;
+    border-radius: 50%;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+}
+
+.fancybox__content {
+    padding: 2px!important;
+}
+
+/*PAGINAS WEB*/
+.grid-seccionuno{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+/*IMAGOTIPOS*/
+.grid-secciondos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+/*VECTORES*/
+.grid-secciontres{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding-bottom: 50px;
+}
+
+/*TARJETAS*/
+.grid-seccioncuatro{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+/*VIDEO*/
+.grid-seccioncinco{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+/*MARKETING*/
+.grid-seccionseis{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-rsl{
+    background-color: #595b3c;
+}
+
+.columna{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*texto btn whatsapp*/
+.shake.svelte-19dp4zf, .svelte-19dp4zf{
+    bottom: 40px !important;
+}
+
+.box.svelte-lyhjhx.svelte-lyhjhx.svelte-lyhjhx a{ 
+    display: none;
+}
+
+/*Movil-*/
+@media screen and (min-width: 368px) and (max-width: 455px) {
+    p{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .logo{
+        width: 60px;
+    }
+
+    .grid-seccionuno{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .grid-secciondos{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        padding-bottom: 30px;
+    }
+
+    .grid-secciontres{
+        grid-template-columns: 1fr;
+
+    }
+
+    .grid-seccioncuatro{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .grid-seccionseis{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .at,
+    .elysian,
+    .rsl,
+    .lu,
+    .cuervos,
+    .m_cuervos,
+    .v_cuervos,
+    .f_cuervos,
+    .firma,
+    .tarjeta1,
+    .tarjeta2,
+    .edi,
+    .f_ads,
+    .e_ads{
+        width: 320px;
+        margin: 0 10px 0 10px;
+    }
+
+    .lu,
+    .cuervos,
+    .edi{
+        height: 340px!important;
+    }
+
+    .m_cuervos,
+    .v_cuervos,
+    .f_cuervos{
+        height: 350px!important;
+    }
+
+    .f_ads{
+        height: 251px!important;
+    }
+
+    .video{
+        width: 340px;
+    }
+    footer{
+        padding: 20px 0 20px 0;
+    }
+
+    footer h5 {
+        font-size: 0.5rem;
+    }
+}
+
+/*Movil+*/
+@media screen and (min-width: 456px) and (max-width: 767px) {
+    p{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .logo{
+        width: 60px;
+    }
+
+    .grid-seccionuno{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .grid-secciondos{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        padding-bottom: 30px;
+    }
+
+    .grid-secciontres{
+        grid-template-columns: 1fr;
+
+    }
+
+    .grid-seccioncuatro{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .grid-seccionseis{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .at,
+    .elysian,
+    .rsl,
+    .lu,
+    .cuervos,
+    .m_cuervos,
+    .v_cuervos,
+    .f_cuervos,
+    .firma,
+    .tarjeta1,
+    .tarjeta2,
+    .edi,
+    .f_ads,
+    .e_ads{
+        width: 370px;
+        margin: 0 10px 0 10px;
+    }
+
+    .f_ads{
+        height: 290px!important;
+    }
+
+    .video{
+        width: 480px;
+    }
+    footer{
+        padding: 20px 0 20px 0;
+    }
+
+    footer h5 {
+        font-size: 0.8rem;
+    }
+}
+
+/*Laptop*/
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    p{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 1.35rem!important;
+    }
+
+    .grid-secciontres{
+        padding-bottom: 50px;
+    }
+
+    .logo{
+        width: 70px;
+    }
+
+    .at,
+    .elysian,
+    .rsl,
+    .lu,
+    .cuervos,
+    .m_cuervos,
+    .v_cuervos,
+    .f_cuervos,
+    .firma,
+    .tarjeta1,
+    .tarjeta2,
+    .edi,
+    .f_ads,
+    .e_ads{
+        width: 370px;
+        margin: 0 10px 0 10px;
+    }
+
+    .lu,
+    .cuervos,
+    .edi{
+        height: 340px!important;
+    }
+
+    .m_cuervos,
+    .v_cuervos,
+    .f_cuervos{
+        height: 350px!important;
+    }
+
+    .f_ads{
+        height: 290px!important;
+    }
+
+    .video{
+        width: 720px;
+    }
+
+    footer{
+        padding: 30px 0 30px 0;
+    }
+
+    footer h5 {
+        font-size: 1.1rem;
+    }
+}
+
+/*PC*/
+@media (min-width: 1440px) {
+    p{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .logo{
+        width: 110px;
+    }
+
+    .at,
+    .elysian,
+    .rsl,
+    .lu,
+    .cuervos,
+    .m_cuervos,
+    .v_cuervos,
+    .f_cuervos,
+    .firma,
+    .tarjeta1,
+    .tarjeta2,
+    .edi,
+    .f_ads,
+    .e_ads{
+        width: 480px;
+        margin: 0 10px 0 10px;
+    }
+
+    .lu,
+    .cuervos,
+    .edi{
+        height: 400px!important;
+    }
+
+    .m_cuervos,
+    .v_cuervos,
+    .f_cuervos{
+        height: 420px!important;
+    }
+
+    .f_ads{
+        height: 377px!important;
+    }
+
+    .video{
+        width: 990px;
+    }
+
+    footer{
+        padding: 40px 0 40px 0;
+    }
+
+    footer h5 {
+        font-size: 1.3rem;
+    }
+}
