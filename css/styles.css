@@ -109,6 +109,14 @@ footer h5{
     color: rgba(255,255,255,.5);
 }
 
+.ocultar{
+    display: none;
+}
+
+.mostrar{
+    display: block;
+}
+
 /*Movil--*/
 @media only screen and (min-width: 320px) and (max-width: 576px){
     #inicio{
@@ -198,6 +206,14 @@ footer h5{
     footer h5 {
         font-size: 0.4rem;
     }
+
+    .ocultar{
+        display: block;
+    }
+    
+    .mostrar{
+        display: none;
+    }
 }
 
 /*Movil-*/
@@ -285,6 +301,14 @@ footer h5{
     footer h5 {
         font-size: 0.5rem;
     }
+
+    .ocultar{
+        display: block;
+    }
+    
+    .mostrar{
+        display: none;
+    }
 }
 
 /*Movil+*/
@@ -359,6 +383,14 @@ footer h5{
 
     footer h5 {
         font-size: 0.8rem;
+    }
+
+    .ocultar{
+        display: block;
+    }
+    
+    .mostrar{
+        display: none;
     }
 }
 
