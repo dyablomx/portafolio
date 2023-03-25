@@ -5,6 +5,7 @@ body{
     height: auto;
     background-color: #F5F4F4!important;
     font-family: Arial,Helvetica,sans-serif!important;
+    letter-spacing: 2px;
 }
 
 hr{
@@ -96,6 +97,11 @@ h2{
     align-items: center;
 }
 
+/*Formulario*/
+.cards{
+    width: 18rem;
+}
+
 /*texto btn whatsapp*/
 .shake.svelte-19dp4zf, .svelte-19dp4zf{
     bottom: 40px !important;
@@ -120,7 +126,13 @@ footer h5{
 /*Movil--*/
 @media only screen and (min-width: 320px) and (max-width: 576px){
     #inicio{
-        padding-top: 50px;
+        padding-top: 80px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .encabezado{
+        font-size: 1.6rem;
     }
 
     h2{
@@ -219,7 +231,13 @@ footer h5{
 /*Movil-*/
 @media screen and (min-width: 368px) and (max-width: 455px) {
     #inicio{
-        padding-top: 70px;
+        padding-top: 100px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .encabezado{
+        font-size: 2rem;
     }
 
     p{
@@ -314,7 +332,13 @@ footer h5{
 /*Movil+*/
 @media screen and (min-width: 456px) and (max-width: 767px) {
     #inicio{
-        padding-top: 65px;
+        padding-top: 110px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .encabezado{
+        font-size: 2.5rem;
     }
 
     p{
@@ -397,7 +421,16 @@ footer h5{
 /*Laptop*/
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
     #inicio{
-        padding-top: 80px;
+        padding-top: 125px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .encabezado{
+        font-size: 2.5rem;
+    }
+
+    .descripcion{
+        width: 1200px;
     }
 
     p{
@@ -469,8 +502,19 @@ footer h5{
 /*PC*/
 @media (min-width: 1440px) {
     #inicio{
-        padding-top: 130px;
+        padding-top: 170px;
+        flex-direction: column;
+        align-items: center;
     }
+
+    .encabezado{
+        font-size: 2.5rem;
+    }
+
+    .descripcion{
+        width: 1800px;
+    }
+
     p{
         font-family: 'Courier New', Courier, monospace;
         font-size: 20px;
