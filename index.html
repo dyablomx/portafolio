@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/styles.css">
     <link href="css/lightbox.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/show-hide-text.css">
     <link rel="icon" href="images/evel.ico" type="image/png">
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
@@ -37,10 +39,14 @@
     <main>
         <section id="inicio" class="d-flex"> <!-- INICIO -->
             <div><h1 class="encabezado">¡Hola! Soy Oscar Soto.</h1></div>
-              <div class="descripcion ">
-                <p>Estudie Ing. En Sistemas Computacionales combinado con administración. Me apasiona la música y el aprendizaje de cosas nuevas para marcarme nuevos retos en mi crecimiento personal, y he dedico un tiempo a desarrollar este portafolio como respaldo de mi trabajo.</p>
-                <p>Desde que comencé en esta área, he trabajado en la creación de mapas interactivos de distintos desarrollos inmobiliarios, diseño de imagotipos y marketing digital, lo que me ha permitido adquirir habilidades en Photoshop, Illustrator, diseño web front end y back end. Me considero una persona responsable, empática, que sabe delimitar sus tiempos, con capacidad de liderazgo y trabajo en equipo y un tanto extrovertido, y siempre estoy en busca de nuevos retos y oportunidades para seguir creciendo en mi carrera.</p>
-                <p>En este portafolio, encontrarás algunos de mis proyectos más destacados, así como más información sobre mi experiencia y habilidades. ¡Gracias por visitar mi sitio y no dudes en contactarme si quieres saber más sobre mi trabajo o colaborar en algún proyecto emocionante!</p>  
+              <div class="descripcion">
+                <div class="item-message">
+                  <p class="my-message">
+                      Estudie Ing. En Sistemas Computacionales combinado con administración. Me apasiona la música y el aprendizaje de cosas nuevas para marcarme nuevos retos en mi crecimiento personal, y he dedico un tiempo a desarrollar este portafolio como respaldo de mi trabajo.
+                      <br><br>Desde que comencé en esta área, he trabajado en la creación de mapas interactivos de distintos desarrollos inmobiliarios, diseño de imagotipos y marketing digital, lo que me ha permitido adquirir habilidades en Photoshop, Illustrator, diseño web front end y back end. Me considero una persona responsable, empática, que sabe delimitar sus tiempos, con capacidad de liderazgo y trabajo en equipo y un tanto extrovertido, y siempre estoy en busca de nuevos retos y oportunidades para seguir creciendo en mi carrera.
+                      <br><br>En este portafolio, encontrarás algunos de mis proyectos más destacados, así como más información sobre mi experiencia y habilidades. ¡Gracias por visitar mi sitio y no dudes en contactarme si quieres saber más sobre mi trabajo o colaborar en algún proyecto emocionante!.
+                  </p>
+              </div>
             </div>
         </section>
 
@@ -228,6 +234,18 @@
           sr.reveal(".video", {delay: 500});
           sr.reveal(".f_ads", { delay: 550});
           sr.reveal(".e_ads", { delay: 600});
+      </script>
+
+      <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+      <script src="js/show-hide-text.js"></script>
+
+      <script>
+          var th = new showHideText('.my-message', {
+              charQty     : 284,
+              ellipseText : ".. ",
+              moreText    :"Continuar Leyendo",
+              lessText    :"Ocultar",
+          });
       </script>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
