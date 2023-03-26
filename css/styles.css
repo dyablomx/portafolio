@@ -30,6 +30,9 @@ h2{
     padding: 2px!important;
 }
 
+/*INICIO*/
+
+
 /*PAGINAS WEB*/
 .grid-seccionuno{
     display: grid;
@@ -97,11 +100,6 @@ h2{
     align-items: center;
 }
 
-/*Formulario*/
-.cards{
-    width: 18rem;
-}
-
 /*texto btn whatsapp*/
 .shake.svelte-19dp4zf, .svelte-19dp4zf{
     bottom: 40px !important;
@@ -131,6 +129,10 @@ footer h5{
         align-items: center;
     }
 
+    .morelink {
+        text-decoration: underline;
+    }
+
     .encabezado{
         font-size: 1.6rem;
     }
@@ -140,7 +142,6 @@ footer h5{
         text-align: center;
     }
     p{
-        font-family: 'Courier New', Courier, monospace;
         font-size: 13px;
         text-align: center;
     }
@@ -174,7 +175,9 @@ footer h5{
         grid-template-rows: repeat(1, 1fr);
     }
 
-    .at,
+    .at{
+        width: 309px;
+    }
     .elysian,
     .rsl,
     .lu,
@@ -241,7 +244,6 @@ footer h5{
     }
 
     p{
-        font-family: 'Courier New', Courier, monospace;
         font-size: 13px;
         text-align: center;
     }
@@ -275,7 +277,10 @@ footer h5{
         grid-template-rows: repeat(1, 1fr);
     }
 
-    .at,
+    .at{
+        width: 339px;
+    }
+
     .elysian,
     .rsl,
     .lu,
@@ -342,7 +347,6 @@ footer h5{
     }
 
     p{
-        font-family: 'Courier New', Courier, monospace;
         font-size: 14px;
         text-align: center;
     }
@@ -434,7 +438,6 @@ footer h5{
     }
 
     p{
-        font-family: 'Courier New', Courier, monospace;
         font-size: 16px;
         text-align: center;
         margin: 140px;
@@ -516,7 +519,6 @@ footer h5{
     }
 
     p{
-        font-family: 'Courier New', Courier, monospace;
         font-size: 20px;
         text-align: center;
         margin: 230px;
