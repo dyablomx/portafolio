@@ -57,7 +57,7 @@
   justify-content: center;
   position: relative;
   margin-top: 20px;
-  color: #524b4b;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -84,6 +84,6 @@
 }
 
 .morelink:hover{
-  color: #000000;
+  color: #ffffff;
   text-decoration: underline;
 }
