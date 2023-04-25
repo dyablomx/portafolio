@@ -8,6 +8,10 @@ body{
     letter-spacing: 2px;
 }
 
+a:hover p{
+    text-decoration: none;
+}
+
 hr{
     width: 80%;
     border: 2px solid #0C67BE!important;
@@ -30,6 +34,20 @@ h2{
     padding: 2px!important;
 }
 
+.card:hover{
+    box-shadow: 10px 10px 15px red!important;
+    transition: 1s;
+}
+
+.grid-seccionuno p{
+    color: white;
+    text-decoration: none;
+}
+
+.p-black{
+    color: black!important;
+}
+
 /*INICIO*/
 #inicio{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/fondo.jpg) no-repeat center top/cover;
@@ -41,7 +59,7 @@ h2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 10px;
+    grid-column-gap: 40px;
     grid-row-gap: 10px;
 }
 
@@ -50,7 +68,7 @@ h2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 10px;
+    grid-column-gap: 40px;
     grid-row-gap: 10px;
 }
 
@@ -90,11 +108,11 @@ h2{
 }
 
 .bg-black{
-    background-color: black;
+    background-color: black!important;
 }
 
 .bg-rsl{
-    background-color: #595b3c;
+    background-color: #595b3c!important;
 }
 
 .columna{
@@ -148,6 +166,11 @@ footer h5{
         font-size: 1.7rem!important;
         text-align: center;
     }
+
+    h3 {
+        font-size: 1rem!important;
+    }
+
     p{
         font-size: 13px;
         text-align: center;
@@ -160,11 +183,14 @@ footer h5{
     .grid-seccionuno{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
+        row-gap: 1.5rem;
     }
+
     .grid-secciondos{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
         padding-bottom: 0px;
+        row-gap: 1.5rem;
     }
 
     .grid-secciontres{
@@ -182,9 +208,23 @@ footer h5{
         grid-template-rows: repeat(1, 1fr);
     }
 
-    .at{
-        width: 309px;
+    .card{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        width: 280px;
+        height: 420px;
+        border-radius: 0 6.25rem!important;
+        box-shadow: 10px 10px 15px black!important;
     }
+
+    .at{
+        width: 260px;
+        margin-left: 10px;
+    }
+
     .elysian,
     .rsl,
     .lu,
@@ -198,14 +238,37 @@ footer h5{
     .edi,
     .f_ads,
     .e_ads{
-        width: 290px;
-        margin: 0 10px 0 10px;
+        width: 250px;
+        margin: 0 12px 0 12px;
     }
 
     .lu,
     .cuervos,
     .edi{
-        height: 340px!important;
+        height: 270px!important;
+    }
+
+    .lu{
+        margin-top: 50px;
+        margin-left: 15px;
+    }
+
+    .lu-p{
+        color: white;
+    }
+
+    .cuervos{
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+
+    .edi{
+        margin-top: 50px;
+        margin-left: 15px;
+    }
+
+    .edi-p{
+        margin-top: -33px;
     }
 
     .m_cuervos,
@@ -227,6 +290,7 @@ footer h5{
 
     footer h5 {
         font-size: 0.4rem;
+        text-align: center;
     }
 
     .ocultar{
@@ -240,6 +304,9 @@ footer h5{
 
 /*Movil-*/
 @media screen and (min-width: 368px) and (max-width: 455px) {
+    h3{
+        font-size: 1.3rem!important;
+    }
     #inicio{
         padding-top: 100px;
         flex-direction: column;
@@ -270,11 +337,14 @@ footer h5{
     .grid-seccionuno{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
+        row-gap: 1.5rem;
     }
+
     .grid-secciondos{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
         padding-bottom: 30px;
+        row-gap: 1.5rem;
     }
 
     .grid-secciontres{
@@ -292,8 +362,37 @@ footer h5{
         grid-template-rows: repeat(1, 1fr);
     }
 
+    .card{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        width: 355px;
+        height: 470px;
+        border-radius: 0 6.25rem!important;
+        box-shadow: 10px 10px 15px black!important;
+    }
+
     .at{
-        width: 339px;
+        width: 315px;
+        margin-left: 20px;
+    }
+
+    .elysian{
+        margin-left: 60px;
+        margin-top: 35px;
+    }
+    .elysian_p{
+        margin-top: 38px;
+    }
+
+    .rsl{
+        margin-left: 60px;
+        margin-top: 128px;
+    }
+    .rsl_p{
+        margin-top: 38px;
     }
 
     .elysian,
@@ -316,7 +415,12 @@ footer h5{
     .lu,
     .cuervos,
     .edi{
-        height: 340px!important;
+        height: 290px!important;
+        margin-top: 55px;
+    }
+
+    .lu-p{
+        color: white;
     }
 
     .m_cuervos,
@@ -468,7 +572,7 @@ footer h5{
     }
 
     h3{
-        font-size: 1.35rem!important;
+        font-size: 1rem!important;
     }
 
     .grid-secciontres{
@@ -477,6 +581,18 @@ footer h5{
 
     .logo{
         width: 70px;
+    }
+
+    .card{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        width: 355px;
+        height: 470px;
+        border-radius: 0 6.25rem!important;
+        box-shadow: 10px 10px 15px black!important;
     }
 
     .at,
@@ -493,14 +609,56 @@ footer h5{
     .edi,
     .f_ads,
     .e_ads{
-        width: 370px;
+        width: 328px;
         margin: 0 10px 0 10px;
+    }
+
+    .at{
+        margin-left: 59px;
+    }
+
+    .elysian{
+        margin-left: 60px;
+        margin-top: 35px;
+    }
+    .elysian_p{
+        margin-top: 38px;
+    }
+
+    .rsl{
+        margin-left: 60px;
+        margin-top: 128px;
+    }
+    .rsl_p{
+        margin-top: 38px;
     }
 
     .lu,
     .cuervos,
     .edi{
-        height: 340px!important;
+        height: 320px!important;
+    }
+
+    .lu{
+        margin-top: 14px;
+        margin-left: 88px;
+        width: 243px;
+    }
+    .lu-p{
+        color: white;
+    }
+
+    .cuervos{
+        margin-top: 23px;
+        margin-left: 50px;
+    }
+
+    .edi{
+        margin-top: 50px;
+        margin-left: 65px;
+    }
+    .edi-p{
+        margin-top: -33px;
     }
 
     .m_cuervos,
@@ -511,6 +669,10 @@ footer h5{
 
     .f_ads{
         height: 290px!important;
+    }
+
+    .e_ads{
+        height: 292px!important;
     }
 
     .video{
@@ -528,6 +690,10 @@ footer h5{
 
 /*PC*/
 @media (min-width: 1440px) {
+    h3 {
+        font-size: 1.65rem!important;
+    }
+
     #inicio{
         padding-top: 170px;
         flex-direction: column;
@@ -556,6 +722,18 @@ footer h5{
         width: 110px;
     }
 
+    .card{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        width: 520px;
+        height: 600px;
+        border-radius: 0 6.25rem!important;
+        box-shadow: 10px 10px 15px black!important;
+    }
+
     .at,
     .elysian,
     .rsl,
@@ -574,12 +752,53 @@ footer h5{
         margin: 0 10px 0 10px;
     }
 
+    .at{
+        margin-left: 87px;
+    }
+
+    .elysian{
+        margin-left: 90px;
+        margin-top: 35px;
+    }
+    .elysian_p{
+        margin-top: 38px;
+    }
+
+    .rsl{
+        margin-left: 87px;
+        margin-top: 128px;
+    }
+    .rsl_p{
+        margin-top: 38px;
+    }
+
     .lu,
     .cuervos,
     .edi{
         height: 400px!important;
     }
 
+    .lu{
+        margin-top: 45px;
+        margin-left: 68px;
+    }
+    .lu-p{
+        color: white;
+    }
+
+    .cuervos{
+        margin-top: 60px;
+        margin-left: 70px;
+    }
+
+    .edi{
+        margin-top: 95px;
+        margin-left: 85px;
+    }
+    .edi-p{
+        margin-top: -33px;
+    }
+    
     .m_cuervos,
     .v_cuervos,
     .f_cuervos{
