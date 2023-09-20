@@ -1,0 +1,4826 @@
+.fondobody{
+  /* width: 100%; */
+  height: 100vh;
+  /* position: fixed; */
+  background: #231F1D url(../images/fondo.png) repeat center;
+  background-size: cover;
+  z-index: 999999;
+  overflow: visible;
+  top: 0;
+}
+.flex-row1{
+  display: flex;
+  align-items: center;
+  width: auto;
+  flex-direction: column !important;
+}
+#corrida-fin1 {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.label-corrida {
+  font-size: 3.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.centrar{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+.LIBRE{
+  background-color: rgb(0, 255, 0);
+  padding: 2rem;
+  font-size: 2rem;
+}
+.APARTADO{
+  background-color: rgb(255,255,0);
+  color: black;
+  padding: 2rem;
+  font-size: 2rem;
+}
+.VENDIDO{
+  background-color: rgb(255,0,0);
+  padding: 2rem;
+  font-size: 2rem;
+}
+.dim{
+  width: 480px;
+  height: auto;
+}
+/*600-1400*/
+.nvunos{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 357px;
+  left: 21px;
+  width: 111px;
+  height: 330px;
+  opacity: 0.4;
+}
+.lunos{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 68px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltipounos{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 79px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdos{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 324px;
+  left: 132px;
+  width: 72px;
+  height: 363px;
+  opacity: 0.4;
+}
+.ldos{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 143px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltipodos{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 154px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvtres{
+  position: absolute;
+    float: left;
+    z-index: 3;
+    top: 348px;
+    left: 203px;
+    width: 92px;
+    height: 334px;
+    opacity: 0.4;
+}
+.ltres{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 228px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltipotres{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 241px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvcuatro{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 346px;
+  left: 295px;
+  width: 83px;
+  height: 333px;
+  opacity: 0.4;
+}
+.lcuatro{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 313px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltipocuatro{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 327px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvcinco{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 350px;
+  left: 378px;
+  width: 91px;
+  height: 325px;
+  opacity: 0.4;
+}
+.lcinco{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 402px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltipocinco{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 412px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvseis{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 348px;
+  left: 470px;
+  width: 91px;
+  height: 327px;
+  opacity: 0.4;
+}
+.lseis{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 493px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltiposeis{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 504px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvsiete{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 352px;
+  left: 561px;
+  width: 84px;
+  height: 323px;
+  opacity: 0.4;
+}
+.lsiete{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 584px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltiposiete{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 597px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvocho{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 354px;
+  left: 646px;
+  width: 82px;
+  height: 323px;
+  opacity: 0.4;
+}
+.locho{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 663px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltipoocho{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 676px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvnueve{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 352px;
+  left: 727px;
+  width: 86px;
+  height: 323px;
+  opacity: 0.4;
+}
+.lnueve{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 743px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltiponueve{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 757px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdiez{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 350px;
+  left: 813px;
+  width: 99px;
+  height: 326px;
+  opacity: 0.4;
+}
+.ldiez{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 843px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltipodiez{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 856px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvonce{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 350px;
+  left: 911px;
+  width: 103px;
+  height: 329px;
+  opacity: 0.4;
+}
+.lonce{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 941px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltipoonce{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 952px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdoce{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 350px;
+  left: 1013px;
+  width: 90px;
+  height: 324px;
+  opacity: 0.4;
+}
+.ldoce{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 1037px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltipodoce{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 1046px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvtrece{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 353px;
+  left: 1103px;
+  width: 89px;
+  height: 332px;
+  opacity: 0.4;
+}
+.ltrece{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 1127px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltipotrece{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 1141px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvcatorce{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 353px;
+  left: 1192px;
+  width: 88px;
+  height: 329px;
+  opacity: 0.4;
+}
+.lcatorce{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 1217px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltipocatorce{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 1230px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvquince{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 352px;
+  left: 1280px;
+  width: 108px;
+  height: 324px;
+  opacity: 0.4;
+}
+.lquince{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 1305px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltipoquince{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 1315px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdieciseis{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 32px;
+  left: 467px;
+  width: 92px;
+  height: 263px;
+  opacity: 0.4;
+}
+.ldieciseis{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 115px;
+  left: 493px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltipodieciseis{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 191px;
+  left: 511px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdiecisiete{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 32px;
+  left: 561px;
+  width: 96px;
+  height: 263px;
+  opacity: 0.4;
+}
+.ldiecisiete{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 115px;
+  left: 588px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltipodiecisiete{
+  position: absolute;
+    float: left;
+    z-index: 5;
+    top: 191px;
+    left: 598px;
+    text-orientation: upright;
+    font-size: 30px;
+    color: white;
+}
+
+.nvdieciocho{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 32px;
+  left: 659px;
+  width: 93px;
+  height: 262px;
+  opacity: 0.4;
+}
+.ldieciocho{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 115px;
+  left: 682px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltipodieciocho{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 191px;
+  left: 695px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdiecinueve{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 32px;
+  left: 754px;
+  width: 97px;
+  height: 264px;
+  opacity: 0.4;
+}
+.ldiecinueve{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 115px;
+  left: 777px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltipodiecinueve{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 191px;
+  left: 789px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+/*1500-1900*/
+.nvunosq{
+  position: absolute;
+    float: left;
+    z-index: 3;
+    top: 357px;
+    left: 19px;
+    width: 88px;
+    height: 330px;
+    opacity: 0.4;
+}
+.lunosq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 46px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipounosq{
+  position: absolute;
+    float: left;
+    z-index: 5;
+    top: 516px;
+    left: 64px;
+    text-orientation: upright;
+    font-size: 30px;
+    color: white;
+}
+
+.nvdosq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 326px;
+  left: 106px;
+  width: 56px;
+  height: 359px;
+  opacity: 0.4;
+}
+.ldosq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 106px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipodosq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 123px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvtresq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 348px;
+  left: 159px;
+  width: 70px;
+  height: 330px;
+  opacity: 0.4;
+}
+.ltresq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 168px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipotresq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 185px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvcuatroq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 343px;
+  left: 230px;
+  width: 62px;
+  height: 333px;
+  opacity: 0.4;
+}
+.lcuatroq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 234px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipocuatroq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 250px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvcincoq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 350px;
+  left: 293px;
+  width: 72px;
+  height: 325px;
+  opacity: 0.4;
+}
+.lcincoq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 300px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipocincoq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 316px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvseisq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 345px;
+  left: 363px;
+  width: 67px;
+  height: 327px;
+  opacity: 0.4;
+}
+.lseisq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 372px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltiposeisq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 386px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvsieteq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 352px;
+  left: 432px;
+  width: 63px;
+  height: 322px;
+  opacity: 0.4;
+}
+.lsieteq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 437px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltiposieteq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 455px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvochoq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 352px;
+  left: 495px;
+  width: 63px;
+  height: 323px;
+  opacity: 0.4;
+}
+.lochoq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 499px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipoochoq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 516px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvnueveq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 350px;
+  left: 555px;
+  width: 64px;
+  height: 323px;
+  opacity: 0.4;
+}
+.lnueveq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 561px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltiponueveq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 577px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdiezq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 350px;
+  left: 620px;
+  width: 78px;
+  height: 326px;
+  opacity: 0.4;
+}
+.ldiezq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 632px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipodiezq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 647px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvonceq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 350px;
+  left: 699px;
+  width: 74px;
+  height: 324px;
+  opacity: 0.4;
+}
+.lonceq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 710px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipoonceq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 726px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdoceq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 350px;
+  left: 772px;
+  width: 70px;
+  height: 324px;
+  opacity: 0.4;
+}
+.ldoceq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 781px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipodoceq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 798px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvtreceq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 351px;
+  left: 841px;
+  width: 68px;
+  height: 328px;
+  opacity: 0.4;
+}
+.ltreceq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 849px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipotreceq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 865px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvcatorceq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 353px;
+  left: 909px;
+  width: 68px;
+  height: 324px;
+  opacity: 0.4;
+}
+.lcatorceq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 916px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipocatorceq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 933px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvquinceq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 348px;
+  left: 977px;
+  width: 70px;
+  height: 328px;
+  opacity: 0.4;
+}
+.lquinceq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 984px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipoquinceq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 1000px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdieciseisq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 347px;
+  left: 1045px;
+  width: 70px;
+  height: 324px;
+  opacity: 0.4;
+}
+.ldieciseisq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 1055px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipodieciseisq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 1068px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdiecisieteq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 359px;
+  left: 1113px;
+  width: 70px;
+  height: 326px;
+  opacity: 0.4;
+}
+.ldiecisieteq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 1123px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipodiecisieteq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 1140px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdieciochoq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 359px;
+  left: 1184px;
+  width: 65px;
+  height: 326px;
+  opacity: 0.4;
+}
+.ldieciochoq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 1190px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipodieciochoq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 1210px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdiecinueveq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 360px;
+  left: 1249px;
+  width: 70px;
+  height: 324px;
+  opacity: 0.4;
+}
+.ldiecinueveq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 1258px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipodiecinueveq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 1272px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvveinteq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 360px;
+  left: 1322px;
+  width: 78px;
+  height: 331px;
+  opacity: 0.4;
+}
+.lveinteq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 1323px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipoveinteq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 1341px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvveintiunoq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 32px;
+  left: 322px;
+  width: 97px;
+  height: 264px;
+  opacity: 0.4;
+}
+.lveintiunoq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 115px;
+  left: 338px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltipoveintiunoq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 191px;
+  left: 361px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvveintidosq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 32px;
+  left: 416px;
+  width: 97px;
+  height: 264px;
+  opacity: 0.4;
+}
+.lveintidosq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 115px;
+  left: 432px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltipoveintidosq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 191px;
+  left: 454px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvveintitresq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 32px;
+  left: 513px;
+  width: 97px;
+  height: 264px;
+  opacity: 0.4;
+}
+.lveintitresq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 115px;
+  left: 528px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltipoveintitresq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 191px;
+  left: 550px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvveinticuatroq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 28px;
+  left: 608px;
+  width: 97px;
+  height: 264px;
+  opacity: 0.4;
+}
+.lveinticuatroq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 115px;
+  left: 629px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+.ltipoveinticuatroq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 191px;
+  left: 646px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+/*2200*/
+.nvunosqw{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 357px;
+  left: 23px;
+  width: 88px;
+  height: 330px;
+  opacity: 0.4;
+}
+.lunosqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 54px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipounosqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 70px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdosqw{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 326px;
+  left: 113px;
+  width: 59px;
+  height: 363px;
+  opacity: 0.4;
+}
+.ldosqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 117px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipodosqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 130px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvtresqw{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 348px;
+  left: 172px;
+  width: 72px;
+  height: 330px;
+  opacity: 0.4;
+}
+.ltresqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 183px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipotresqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 198px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvcuatroqw{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 343px;
+  left: 246px;
+  width: 70px;
+  height: 333px;
+  opacity: 0.4;
+}
+.lcuatroqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 255px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipocuatroqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 270px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvcincoqw{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 350px;
+  left: 315px;
+  width: 75px;
+  height: 325px;
+  opacity: 0.4;
+}
+.lcincoqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 326px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipocincoqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 339px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvseisqw{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 345px;
+  left: 391px;
+  width: 75px;
+  height: 327px;
+  opacity: 0.4;
+}
+.lseisqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 403px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltiposeisqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 417px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvsieteqw{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 352px;
+  left: 467px;
+  width: 65px;
+  height: 322px;
+  opacity: 0.4;
+}
+.lsieteqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 476px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltiposieteqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 491px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvochoqw{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 352px;
+  left: 533px;
+  width: 67px;
+  height: 323px;
+  opacity: 0.4;
+}
+.lochoqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 542px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipoochoqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 559px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvnueveqw{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 350px;
+  left: 599px;
+  width: 72px;
+  height: 323px;
+  opacity: 0.4;
+}
+.lnueveqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 608px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltiponueveqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 622px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdiezqw{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 350px;
+  left: 671px;
+  width: 85px;
+  height: 326px;
+  opacity: 0.4;
+}
+.ldiezqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 685px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipodiezqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 700px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvonceqw{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 350px;
+  left: 754px;
+  width: 82px;
+  height: 324px;
+  opacity: 0.4;
+}
+.lonceqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 768px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipoonceqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 784px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdoceqw{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 350px;
+  left: 835px;
+  width: 74px;
+  height: 324px;
+  opacity: 0.4;
+}
+.ldoceqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 848px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipodoceqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 862px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvtreceqw{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 351px;
+  left: 914px;
+  width: 68px;
+  height: 328px;
+  opacity: 0.4;
+}
+.ltreceqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 919px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipotreceqw{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 935px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+/*2300*/
+.nvunosqwe{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 357px;
+  left: 26px;
+  width: 101px;
+  height: 330px;
+  opacity: 0.4;
+}
+.lunosqwe{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 64px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipounosqwe{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 78px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdosqwe{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 326px;
+  left: 129px;
+  width: 77px;
+  height: 363px;
+  opacity: 0.4;
+}
+.ldosqwe{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 142px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipodosqwe{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 155px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvtresqwe{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 348px;
+  left: 203px;
+  width: 89px;
+  height: 330px;
+  opacity: 0.4;
+}
+.ltresqwe{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 223px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipotresqwe{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 238px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvcuatroqwe{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 343px;
+  left: 290px;
+  width: 85px;
+  height: 333px;
+  opacity: 0.4;
+}
+.lcuatroqwe{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 305px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipocuatroqwe{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 324px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvcincoqwe{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 350px;
+  left: 376px;
+  width: 94px;
+  height: 325px;
+  opacity: 0.4;
+}
+.lcincoqwe{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 394px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipocincoqwe{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 408px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvseisqwe{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 345px;
+  left: 469px;
+  width: 91px;
+  height: 327px;
+  opacity: 0.4;
+}
+.lseisqwe{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 490px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltiposeisqwe{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 503px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvsieteqwe{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 352px;
+  left: 562px;
+  width: 77px;
+  height: 322px;
+  opacity: 0.4;
+}
+.lsieteqwe{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 578px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltiposieteqwe{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 591px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvochoqwe{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 352px;
+  left: 641px;
+  width: 78px;
+  height: 323px;
+  opacity: 0.4;
+}
+.lochoqwe{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 657px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipoochoqwe{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 671px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvnueveqwe{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 350px;
+  left: 721px;
+  width: 84px;
+  height: 323px;
+  opacity: 0.4;
+}
+.lnueveqwe{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 736px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltiponueveqwe{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 749px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdiezqwe{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 350px;
+  left: 807px;
+  width: 96px;
+  height: 326px;
+  opacity: 0.4;
+}
+.ldiezqwe{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 831px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipodiezqwe{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 845px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvonceqwe{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 350px;
+  left: 909px;
+  width: 95px;
+  height: 324px;
+  opacity: 0.4;
+}
+.lonceqwe{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 930px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipoonceqwe{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 948px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+/*2400*/
+.nvunosqwer{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 357px;
+  left: 26px;
+  width: 112px;
+  height: 330px;
+  opacity: 0.4;
+}
+.lunosqwer{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 70px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipounosqwer{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 83px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdosqwer{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 326px;
+  left: 143px;
+  width: 80px;
+  height: 363px;
+  opacity: 0.4;
+}
+.ldosqwer{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 157px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipodosqwer{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 172px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvtresqwer{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 348px;
+  left: 223px;
+  width: 99px;
+  height: 330px;
+  opacity: 0.4;
+}
+.ltresqwer{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 249px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipotresqwer{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 265px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvcuatroqwer{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 343px;
+  left: 321px;
+  width: 96px;
+  height: 333px;
+  opacity: 0.4;
+}
+.lcuatroqwer{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 342px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipocuatroqwer{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 361px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvcincoqwer{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 350px;
+  left: 414px;
+  width: 106px;
+  height: 325px;
+  opacity: 0.4;
+}
+.lcincoqwer{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 437px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipocincoqwer{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 453px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvseisqwer{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 345px;
+  left: 519px;
+  width: 102px;
+  height: 327px;
+  opacity: 0.4;
+}
+.lseisqwer{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 542px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltiposeisqwer{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 557px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvsieteqwer{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 352px;
+  left: 623px;
+  width: 89px;
+  height: 322px;
+  opacity: 0.4;
+}
+.lsieteqwer{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 645px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltiposieteqwer{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 660px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvochoqwer{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 352px;
+  left: 713px;
+  width: 90px;
+  height: 323px;
+  opacity: 0.4;
+}
+.lochoqwer{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 733px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipoochoqwer{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 749px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvnueveqwer{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 350px;
+  left: 806px;
+  width: 94px;
+  height: 323px;
+  opacity: 0.4;
+}
+.lnueveqwer{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 823px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltiponueveqwer{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 839px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdiezqwer{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 350px;
+  left: 900px;
+  width: 112px;
+  height: 326px;
+  opacity: 0.4;
+}
+.ldiezqwer{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 929px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipodiezqwer{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 942px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+
+}
+
+/*2500*/
+.nvunosqwert{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 74px;
+  left: 17px;
+  width: 140px;
+  height: 330px;
+  opacity: 0.4;
+}
+.lunosqwert{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 82px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipounosqwert{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 97px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdosqwert{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 41px;
+  left: 154px;
+  width: 101px;
+  height: 363px;
+  opacity: 0.4;
+}
+.ldosqwert{
+  position: absolute;
+    float: left;
+    z-index: 5;
+    top: 160px;
+    left: 182px;
+    text-orientation: upright;
+    font-size: 26px;
+    color: white;
+}
+.ltipodosqwert{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 193px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvtresqwert{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 58px;
+  left: 249px;
+  width: 123px;
+  height: 334px;
+  opacity: 0.4;
+}
+.ltresqwert{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 288px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipotresqwert{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 301px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvcuatroqwert{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 55px;
+  left: 370px;
+  width: 112px;
+  height: 333px;
+  opacity: 0.4;
+}
+.lcuatroqwert{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 401px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipocuatroqwert{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 418px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvcincoqwert{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 61px;
+  left: 482px;
+  width: 125px;
+  height: 325px;
+  opacity: 0.4;
+}
+.lcincoqwert{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 516px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipocincoqwert{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 532px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvseisqwert{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 58px;
+  left: 604px;
+  width: 120px;
+  height: 329px;
+  opacity: 0.4;
+}
+.lseisqwert{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 641px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltiposeisqwert{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 657px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvsieteqwert{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 66px;
+  left: 728px;
+  width: 105px;
+  height: 322px;
+  opacity: 0.4;
+}
+.lsieteqwert{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 756px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltiposieteqwert{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 771px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvochoqwert{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 66px;
+  left: 834px;
+  width: 105px;
+  height: 323px;
+  opacity: 0.4;
+}
+.lochoqwert{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 860px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipoochoqwert{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 877px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvnueveqwert{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 65px;
+  left: 942px;
+  width: 113px;
+  height: 323px;
+  opacity: 0.4;
+}
+.lnueveqwert{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 972px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltiponueveqwert{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 987px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+/*2600*/
+.nvunosqwerty{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 111px;
+  left: 12px;
+  width: 169px;
+  height: 330px;
+  opacity: 0.4;
+}
+.lunosqwerty{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 93px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipounosqwerty{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 108px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdosqwerty{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 76px;
+  left: 182px;
+  width: 123px;
+  height: 369px;
+  opacity: 0.4;
+}
+.ldosqwerty{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 217px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipodosqwerty{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 232px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvtresqwerty{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 100px;
+  left: 297px;
+  width: 147px;
+  height: 331px;
+  opacity: 0.4;
+}
+.ltresqwerty{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 348px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipotresqwerty{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 364px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvcuatroqwerty{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 97px;
+  left: 446px;
+  width: 138px;
+  height: 333px;
+  opacity: 0.4;
+}
+.lcuatroqwerty{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 489px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipocuatroqwerty{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 504px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvcincoqwerty{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 101px;
+  left: 582px;
+  width: 150px;
+  height: 325px;
+  opacity: 0.4;
+}
+.lcincoqwerty{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 632px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipocincoqwerty{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 646px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvseisqwerty{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 100px;
+  left: 732px;
+  width: 152px;
+  height: 329px;
+  opacity: 0.4;
+}
+.lseisqwerty{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 786px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltiposeisqwerty{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 800px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvsieteqwerty{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 107px;
+  left: 883px;
+  width: 132px;
+  height: 322px;
+  opacity: 0.4;
+}
+.lsieteqwerty{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 923px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltiposieteqwerty{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 941px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+/*2700*/
+.nvunosqwertyu{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 73px;
+  left: 10px;
+  width: 215px;
+  height: 330px;
+  opacity: 0.4;
+}
+.lunosqwertyu{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 122px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipounosqwertyu{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 135px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdosqwertyu{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 41px;
+  left: 223px;
+  width: 152px;
+  height: 369px;
+  opacity: 0.4;
+}
+.ldosqwertyu{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 271px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipodosqwertyu{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 286px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvtresqwertyu{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 64px;
+  left: 369px;
+  width: 181px;
+  height: 331px;
+  opacity: 0.4;
+}
+.ltresqwertyu{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 433px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipotresqwertyu{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 450px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvcuatroqwertyu{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 60px;
+  left: 551px;
+  width: 170px;
+  height: 333px;
+  opacity: 0.4;
+}
+.lcuatroqwertyu{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 610px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipocuatroqwertyu{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 626px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvcincoqwertyu{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 64px;
+  left: 720px;
+  width: 190px;
+  height: 330px;
+  opacity: 0.4;
+}
+.lcincoqwertyu{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 787px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipocincoqwertyu{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 801px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+/*2800*/
+.nvunosqwertyui{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 95px;
+  left: 26px;
+  width: 215px;
+  height: 274px;
+  opacity: 0.4;
+}
+.lunosqwertyui{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 122px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipounosqwertyui{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 135px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvdosqwertyui{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 67px;
+  left: 223px;
+  width: 152px;
+  height: 303px;
+  opacity: 0.4;
+}
+.ldosqwertyui{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 271px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipodosqwertyui{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 286px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvtresqwertyui{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 88px;
+  left: 365px;
+  width: 174px;
+  height: 271px;
+  opacity: 0.4;
+}
+.ltresqwertyui{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 433px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipotresqwertyui{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 450px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+/*2900*/
+.nvunosqwertyuio{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 107px;
+  left: 8px;
+  width: 208px;
+  height: 274px;
+  opacity: 0.4;
+}
+.lunosqwertyuio{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 122px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipounosqwertyuio{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 135px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+/*PH´S*/
+.nvphdieciochoq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 226px;
+  left: 1185px;
+  width: 227px;
+  height: 484px;
+  opacity: 0.4;
+}
+.lphdieciochoq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 1260px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipophdieciochoq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 1270px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvphdieciseisq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 304px;
+  left: 1043px;
+  width: 347px;
+  height: 402px;
+  opacity: 0.4;
+}
+.lphdieciseisq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 1195px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipophdieciseisq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 1204px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvphcatorceq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 269px;
+  left: 979px;
+  width: 414px;
+  height: 439px;
+  opacity: 0.4;
+}
+.lphcatorceq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 1158px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipophcatorceq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 1167px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvphdoceq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 313px;
+  left: 1005px;
+  width: 392px;
+  height: 395px;
+  opacity: 0.4;
+}
+.lphdoceq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 1172px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipophdoceq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 1179px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvphonceq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 304px;
+  left: 1009px;
+  width: 392px;
+  height: 395px;
+  opacity: 0.4;
+}
+.lphonceq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 451px;
+  left: 1172px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipophonceq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 516px;
+  left: 1179px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvphdiezq{
+  position: absolute;
+    float: left;
+    z-index: 3;
+    top: 10px;
+    left: 1052px;
+    width: 338px;
+    height: 395px;
+    opacity: 0.4;
+}
+.lphdiezq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 1196px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipophdiezq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 1205px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvphochoq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 10px;
+  left: 1012px;
+  width: 386px;
+  height: 417px;
+  opacity: 0.4;
+}
+.lphochoq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 1177px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipophochoq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 1185px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvphseisq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 1px;
+  left: 908px;
+  width: 473px;
+  height: 403px;
+  opacity: 0.4;
+}
+.lphseisq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 1112px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipophseisq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 1120px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvphcuatroq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: -8px;
+  left: 539px;
+  width: 461px;
+  height: 374px;
+  opacity: 0.4;
+}
+.lphcuatroq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 745px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipophcuatroq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 752px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvphcuatroq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: -8px;
+  left: 539px;
+  width: 461px;
+  height: 374px;
+  opacity: 0.4;
+}
+.lphcuatroq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 745px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipophcuatroq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 752px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvphdosq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 22px;
+  left: 215px;
+  width: 558px;
+  height: 374px;
+  opacity: 0.4;
+}
+.lphdosq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 468px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipophdosq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 477px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+
+.nvphunoq{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 30px;
+  left: 4px;
+  width: 526px;
+  height: 383px;
+  opacity: 0.4;
+}
+.lphunoq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 160px;
+  left: 251px;
+  text-orientation: upright;
+  font-size: 26px;
+  color: white;
+}
+.ltipophunoq{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 250px;
+  left: 257px;
+  text-orientation: upright;
+  font-size: 30px;
+  color: white;
+}
+/*Lofts*/
+/*Loft I*/
+.loft1{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 118px;
+  left: 71px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv1{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 44px;
+  left: 54px;
+  width: 66px;
+  height: 217px;
+  opacity: 0.4;
+}
+.ltipo1{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 205px;
+  left: 65px;
+  font-size: 14px;
+  color: white;
+}
+.loft2{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 118px;
+  left: 129px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv2{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 44px;
+  left: 112px;
+  width: 66px;
+  height: 217px;
+  opacity: 0.4;
+}
+.ltipo2{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 205px;
+  left: 124px;
+  font-size: 14px;
+  color: white;
+}
+.loft3{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 118px;
+  left: 189px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv3{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 44px;
+  left: 173px;
+  width: 66px;
+  height: 217px;
+  opacity: 0.4;
+}
+.ltipo3{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 205px;
+  left: 184px;
+  font-size: 14px;
+  color: white;
+}
+.loft4{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 118px;
+  left: 249px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv4{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 44px;
+  left: 231px;
+  width: 66px;
+  height: 217px;
+  opacity: 0.4;
+}
+.ltipo4{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 205px;
+  left: 243px;
+  font-size: 14px;
+  color: white;
+}
+.loft5{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 118px;
+  left: 308px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv5{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 44px;
+  left: 293px;
+  width: 66px;
+  height: 217px;
+  opacity: 0.4;
+}
+.ltipo5{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 205px;
+  left: 303px;
+  font-size: 14px;
+  color: white;
+}
+.loft6{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 118px;
+  left: 366px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv6{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 44px;
+  left: 350px;
+  width: 66px;
+  height: 217px;
+  opacity: 0.4;
+}
+.ltipo6{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 205px;
+  left: 362px;
+  font-size: 14px;
+  color: white;
+}
+.loft7{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 118px;
+  left: 428px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv7{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 44px;
+  left: 410px;
+  width: 66px;
+  height: 217px;
+  opacity: 0.4;
+}
+.ltipo7{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 205px;
+  left: 422px;
+  font-size: 14px;
+  color: white;
+}
+/*Loft F*/
+.loft8{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 9px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv8{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 340px;
+  left: 2px;
+  width: 49px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo8{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 4px;
+  font-size: 13px;
+  color: white;
+}
+.loft9{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 54px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv9{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 342px;
+  left: 42px;
+  width: 53px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo9{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 48px;
+  font-size: 13px;
+  color: white;
+}
+.loft10{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 99px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv10{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 333px;
+  left: 89px;
+  width: 49px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo10{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 94px;
+  font-size: 13px;
+  color: white;
+}
+.loft11{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 141px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv11{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 333px;
+  left: 132px;
+  width: 53px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo11{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 137px;
+  font-size: 13px;
+  color: white;
+}
+.loft12{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 186px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv12{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 340px;
+  left: 176px;
+  width: 53px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo12{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 182px;
+  font-size: 13px;
+  color: white;
+}
+.loft13{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 230px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv13{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 340px;
+  left: 220px;
+  width: 53px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo13{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 226px;
+  font-size: 13px;
+  color: white;
+}
+.loft14{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 276px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv14{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 333px;
+  left: 269px;
+  width: 49px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo14{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 271px;
+  font-size: 13px;
+  color: white;
+}
+.loft15{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 321px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv15{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 333px;
+  left: 309px;
+  width: 53px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo15{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 317px;
+  font-size: 13px;
+  color: white;
+}
+.loft16{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 367px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv16{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 340px;
+  left: 357px;
+  width: 53px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo16{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 361px;
+  font-size: 13px;
+  color: white;
+}
+.loft17{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 410px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv17{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 342px;
+  left: 400px;
+  width: 53px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo17{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 406px;
+  font-size: 13px;
+  color: white;
+}
+.loft18{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 453px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv18{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 333px;
+  left: 446px;
+  width: 53px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo18{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 451px;
+  font-size: 13px;
+  color: white;
+}
+.loft19{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 500px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv19{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 333px;
+  left: 491px;
+  width: 49px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo19{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 495px;
+  font-size: 13px;
+  color: white;
+}
+.loft20{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 542px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv20{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 340px;
+  left: 535px;
+  width: 53px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo20{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 540px;
+  font-size: 13px;
+  color: white;
+}
+.loft21{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 590px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv21{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 340px;
+  left: 578px;
+  width: 53px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo21{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 584px;
+  font-size: 13px;
+  color: white;
+}
+.loft22{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 634px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv22{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 333px;
+  left: 623px;
+  width: 53px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo22{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 629px;
+  font-size: 13px;
+  color: white;
+}
+.loft23{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 677px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv23{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 333px;
+  left: 669px;
+  width: 49px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo23{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 672px;
+  font-size: 13px;
+  color: white;
+}
+.loft24{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 722px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv24{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 340px;
+  left: 714px;
+  width: 53px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo24{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 719px;
+  font-size: 13px;
+  color: white;
+}
+.loft25{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 767px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv25{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 340px;
+  left: 757px;
+  width: 53px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo25{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 763px;
+  font-size: 13px;
+  color: white;
+}
+.loft26{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 812px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv26{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 333px;
+  left: 801px;
+  width: 53px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo26{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 808px;
+  font-size: 13px;
+  color: white;
+}
+.loft27{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 857px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv27{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 333px;
+  left: 847px;
+  width: 49px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo27{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 851px;
+  font-size: 13px;
+  color: white;
+}
+.loft28{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 899px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv28{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 340px;
+  left: 889px;
+  width: 53px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo28{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 894px;
+  font-size: 13px;
+  color: white;
+}
+.loft29{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 944px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv29{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 340px;
+  left: 933px;
+  width: 53px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo29{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 938px;
+  font-size: 13px;
+  color: white;
+}
+.loft30{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 989px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv30{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 333px;
+  left: 979px;
+  width: 53px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo30{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 985px;
+  font-size: 13px;
+  color: white;
+}
+.loft31{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 1034px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv31{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 333px;
+  left: 1023px;
+  width: 53px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo31{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 1028px;
+  font-size: 13px;
+  color: white;
+}
+.loft32{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 1080px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv32{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 340px;
+  left: 1069px;
+  width: 53px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo32{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 1074px;
+  font-size: 13px;
+  color: white;
+}
+.loft33{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 408px;
+  left: 1124px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv33{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 340px;
+  left: 1111px;
+  width: 53px;
+  height: 255px;
+  opacity: 0.4;
+}
+.ltipo33{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 533px;
+  left: 1120px;
+  font-size: 13px;
+  color: white;
+}
+/*Loft D*/
+.loft34{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 118px;
+  left: 612px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv34{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 44px;
+  left: 596px;
+  width: 66px;
+  height: 217px;
+  opacity: 0.4;
+}
+.ltipo34{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 205px;
+  left: 605px;
+  font-size: 14px;
+  color: white;
+}
+.loft35{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 118px;
+  left: 673px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv35{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 44px;
+  left: 654px;
+  width: 66px;
+  height: 217px;
+  opacity: 0.4;
+}
+.ltipo35{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 205px;
+  left: 664px;
+  font-size: 14px;
+  color: white;
+}
+.loft36{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 118px;
+  left: 733px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv36{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 44px;
+  left: 715px;
+  width: 66px;
+  height: 217px;
+  opacity: 0.4;
+}
+.ltipo36{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 205px;
+  left: 724px;
+  font-size: 14px;
+  color: white;
+}
+.loft37{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 118px;
+  left: 792px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv37{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 44px;
+  left: 774px;
+  width: 66px;
+  height: 217px;
+  opacity: 0.4;
+}
+.ltipo37{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 205px;
+  left: 783px;
+  font-size: 14px;
+  color: white;
+}
+.loft38{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 118px;
+  left: 852px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv38{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 44px;
+  left: 836px;
+  width: 66px;
+  height: 217px;
+  opacity: 0.4;
+}
+.ltipo38{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 205px;
+  left: 844px;
+  font-size: 14px;
+  color: white;
+}
+.loft39{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 118px;
+  left: 912px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv39{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 44px;
+  left: 893px;
+  width: 66px;
+  height: 217px;
+  opacity: 0.4;
+}
+.ltipo39{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 205px;
+  left: 902px;
+  font-size: 14px;
+  color: white;
+}
+.loft40{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 118px;
+  left: 970px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv40{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 44px;
+  left: 954px;
+  width: 66px;
+  height: 217px;
+  opacity: 0.4;
+}
+.ltipo40{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 205px;
+  left: 963px;
+  font-size: 14px;
+  color: white;
+}
+.loft41{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 118px;
+  left: 1030px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv41{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 46px;
+  left: 1012px;
+  width: 66px;
+  height: 217px;
+  opacity: 0.4;
+}
+.ltipo41{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 205px;
+  left: 1022px;
+  font-size: 14px;
+  color: white;
+}
+.loft42{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 118px;
+  left: 1092px;
+  text-orientation: upright;
+  font-size: 22px;
+  color: white;
+}
+.nv42{
+  position: absolute;
+  float: left;
+  z-index: 3;
+  top: 46px;
+  left: 1074px;
+  width: 66px;
+  height: 217px;
+  opacity: 0.4;
+}
+.ltipo42{
+  position: absolute;
+  float: left;
+  z-index: 5;
+  top: 205px;
+  left: 1081px;
+  font-size: 14px;
+  color: white;
+}
+.loftpos{
+  position: relative;
+  top: -6px;
+  left: -6px;
+  width: 1160px;
+  height: 616px;
+}
